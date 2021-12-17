@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  localstack:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: latest
+    created: "2021-12-17T07:57:33.448724+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: LocalStack - a fully functional local AWS cloud stack
+    digest: f332ed0d6fd6a8ef24061c6f55ccd6dfc63f1b61d9c2948535d1dff85d408f7f
+    icon: https://localstack.cloud/images/localstack.png
+    keywords:
+    - aws
+    - localstack
+    maintainers:
+    - email: waldemar.hummer@gmail.com
+      name: Waldemar Hummer
+    name: localstack
+    sources:
+    - https://localstack.cloud/
+    - https://github.com/localstack/localstack
+    type: application
+    urls:
+    - localstack-0.3.7.tgz
+    version: 0.3.7
+generated: "2021-12-17T07:57:33.446108+01:00"
